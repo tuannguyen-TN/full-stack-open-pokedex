@@ -31,7 +31,7 @@ processes = []
     soft_limit = 20
     type = "connections"
 
-  [[service.script_checks]]
+  [[services.script_checks]]
     command = "./health_check.sh"
     grace_period = "1s"
     interval = "5s"
