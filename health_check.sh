@@ -4,7 +4,7 @@ echo "Hello from shell script"
 
 response="$(curl https://pokemon-index.fly.dev/health)"
 
-if [ response -eq "ok"]
+if [[ response -eq "ok" ]]
 then
     exit 0
 else
