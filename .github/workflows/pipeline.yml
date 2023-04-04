@@ -21,7 +21,6 @@ jobs:
         run: npm run build
       - name: test
         run: npm run test
-  deploy:
     name: Deploy app
     runs-on: ubuntu-latest
     steps:
